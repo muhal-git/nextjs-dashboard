@@ -1,6 +1,7 @@
 import LoginForm from "./login-form"
 
-export default function LoginPage() {
+export default async function LoginPage() {
+  await new Promise((resolve) => setTimeout(resolve, 3000));
   return (
     <div className="flex items-center justify-center min-h-screen bg-gray-100">
       <div className="w-full max-w-md">

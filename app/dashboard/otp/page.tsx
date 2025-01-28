@@ -8,6 +8,7 @@ import {
   } from "@/components/ui/input-otp"
   
   export default function InputOTPDemo() {
+    
     return (
       <InputOTP maxLength={6}>
         <InputOTPGroup>
